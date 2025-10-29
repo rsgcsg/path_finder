@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Path Finder v0.1</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+  <body>
+    <header>
+      <h1>Path Finder</h1>
+    </header>
+
+    <main>
+      <section id="input-section">
+        <h2>Enter Your Degree</h2>
+        <form id="degree-form">
+          <input type="text" id="degree-input" placeholder="e.g. Computer Science" />
+          <button type="submit">Find Careers</button>
+        </form>
+      </section>
+
+      <section id="results-section">
+        <h2>Career Opportunities</h2>
+        <div id="results-container"></div>
+      </section>
+    </main>
+
+    <script>
+      document.getElementById("degree-form").addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const degree = document.getElementById("degree-input").value.trim();
+        const container = document.getElementById("results-container");
+        container.innerHTML = "";
+
+        const response = await fetch("/api/match", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ degree })
+        });
+
+        const data = await response.json();
+        if (!data.careers.length) {
+          container.innerHTML = `<p>No results found for "${degree}".</p>`;
+          return;
+        }
+
+        data.careers.forEach((career) => {
+          const card = document.createElement("div");
+          card.classList.add("career-card");
+          card.innerHTML = `
+            <h3>${career.role}</h3>
+            <p>${career.summary}</p>
+            <ul>${career.steps.map(s => `<li>${s}</li>`).join("")}</ul>
+            <p><strong>Outcome:</strong> ${career.outcome}</p>
+          `;
+          container.appendChild(card);
+        });
+      });
+    </script>
+  </body>
+</html>
+
+    

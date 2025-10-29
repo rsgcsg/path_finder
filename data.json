@@ -1,0 +1,139 @@
+{
+    "Computer Science": {
+      "careers": [
+        {
+          "role": "Software Engineer",
+          "summary": "Designs, builds, and maintains software systems and applications.",
+          "steps": [
+            "Learn Python and Java fundamentals",
+            "Build personal or open-source projects",
+            "Intern at a tech company to gain experience",
+            "Practice technical interview questions",
+            "Apply for entry-level software engineering roles"
+          ],
+          "outcome": "Become an entry-level software engineer skilled in full-stack development."
+        },
+        {
+          "role": "Data Scientist",
+          "summary": "Uses data, algorithms, and statistics to generate business insights.",
+          "steps": [
+            "Study statistics and data analysis concepts",
+            "Learn Python libraries like pandas, NumPy, and scikit-learn",
+            "Complete projects or participate in Kaggle competitions",
+            "Intern in a data analytics or AI-related role",
+            "Apply for junior data scientist or analyst roles"
+          ],
+          "outcome": "Work in data-driven roles applying analytical and machine learning skills."
+        },
+        {
+          "role": "Cybersecurity Analyst",
+          "summary": "Protects systems and networks from cyber threats and vulnerabilities.",
+          "steps": [
+            "Learn networking and security fundamentals",
+            "Get certifications like CompTIA Security+ or CEH",
+            "Participate in Capture The Flag competitions",
+            "Gain internship experience in IT security",
+            "Apply for cybersecurity analyst positions"
+          ],
+          "outcome": "Work in IT security, monitoring and defending networks."
+        }
+      ]
+    },
+    "Mathematics": {
+      "careers": [
+        {
+          "role": "Actuary",
+          "summary": "Analyzes financial risks using mathematics, statistics, and economics.",
+          "steps": [
+            "Study probability theory and financial mathematics",
+            "Pass actuarial exams (Part I and II)",
+            "Intern at an insurance or finance company",
+            "Develop Excel and data analysis skills",
+            "Apply for actuarial graduate roles"
+          ],
+          "outcome": "Work as a certified actuary in insurance or finance sectors."
+        },
+        {
+          "role": "Data Analyst",
+          "summary": "Transforms data into actionable insights through reports and visualization.",
+          "steps": [
+            "Learn SQL, Excel, and data visualization tools (Tableau or Power BI)",
+            "Take an online data analysis or statistics course",
+            "Complete a small portfolio project using open data",
+            "Intern in a business or analytics role",
+            "Apply for junior data analyst positions"
+          ],
+          "outcome": "Start a data analytics career with real-world reporting experience."
+        },
+        {
+          "role": "Quantitative Analyst",
+          "summary": "Uses mathematical models to inform investment strategies.",
+          "steps": [
+            "Master probability, statistics, and linear algebra",
+            "Learn programming in Python or R",
+            "Study financial instruments and markets",
+            "Intern at a hedge fund or investment bank",
+            "Apply for quantitative analyst positions"
+          ],
+          "outcome": "Work in finance, developing models to guide investment decisions."
+        }
+      ]
+    },
+    "Physics": {
+      "careers": [
+        {
+          "role": "Research Scientist",
+          "summary": "Conducts experiments and studies physical phenomena.",
+          "steps": [
+            "Obtain advanced degree (Masters/PhD) in Physics",
+            "Learn laboratory techniques and simulation tools",
+            "Publish research papers",
+            "Collaborate with research institutions",
+            "Apply for research scientist positions in academia or industry"
+          ],
+          "outcome": "Lead research projects in physics and applied sciences."
+        },
+        {
+          "role": "Astronomer",
+          "summary": "Studies celestial bodies and the universe.",
+          "steps": [
+            "Pursue degree in Physics or Astronomy",
+            "Gain experience with telescopes and observational tools",
+            "Conduct independent research",
+            "Publish findings in journals",
+            "Apply for positions at observatories or research institutions"
+          ],
+          "outcome": "Work in academia or observatories researching celestial phenomena."
+        }
+      ]
+    },
+    "Economics": {
+      "careers": [
+        {
+          "role": "Economist",
+          "summary": "Analyzes economic data and trends to guide policy or business decisions.",
+          "steps": [
+            "Obtain degree in Economics",
+            "Study econometrics and statistical modeling",
+            "Complete internships in government or private sector",
+            "Develop forecasting and analysis skills",
+            "Apply for economist roles in policy, research, or consulting"
+          ],
+          "outcome": "Work as an economist advising on economic strategies."
+        },
+        {
+          "role": "Financial Analyst",
+          "summary": "Evaluates financial data to guide investments and corporate decisions.",
+          "steps": [
+            "Learn accounting, finance, and Excel skills",
+            "Get CFA or related certifications",
+            "Complete internship in finance or consulting",
+            "Analyze market trends and company data",
+            "Apply for financial analyst positions"
+          ],
+          "outcome": "Provide data-driven recommendations for investments or corporate finance."
+        }
+      ]
+    }
+  }
+  
